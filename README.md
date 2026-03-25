@@ -332,7 +332,7 @@ While waiting for the API, you can experience Seedance 2.0 through ByteDance's o
 
 | Feature | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | fal.ai | Replicate |
 |---------|:-----------:|:------:|:---------:|
-| **Video models** | 100+ | ~20 | ~50 |
+| **Coverage** | Video + Image + LLM | Video + Image | Video + Image |
 | **Kling 3.0** | ✅ 15% cheaper | ✅ | ❌ |
 | **Veo 3 / 3.1** | ✅ | ❌ | ❌ |
 | **Seedance v1.5** | ✅ | ❌ | ❌ |
