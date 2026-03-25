@@ -291,6 +291,44 @@ print(f"视频地址: {url}")
 
 ---
 
+## Seedance 2.0 — 最强大的模型（API 即将上线）
+
+[Seedance 2.0](https://seed.bytedance.com/en/seedance2_0) 由字节跳动于 2026 年 2 月 12 日发布，被广泛认为是目前最强大的 AI 视频模型——[许多创作者认为](https://www.hedra.com/blog/sora-2-alternative)它在画质上已经可以媲美甚至超越 Sora 2。
+
+### Seedance 2.0 的独特之处
+
+- **原生音视频协同生成** — 首个在单次推理中同时生成同步音频和视频的商用模型（Dual-Branch Diffusion Transformer 架构）
+- **多镜头叙事** — 在多个场景之间保持角色一致性，如同虚拟电影导演
+- **多模态输入** — 每个项目最多可组合 12 个素材（9 张图片 + 3 个视频 + 3 段音频，每段最长 15 秒）
+- **高级引用机制** — 在提示词中使用 @ 标签引用上传的文件，精确控制每个素材的影响
+- **视觉风格灵活多变** — 支持写实画面、漫画风格、电影特效和艺术风格
+
+### API 状态
+
+字节跳动[推迟了 Seedance 2.0 API 的发布](https://mangoanimate.com/blog/seedance-2-0-in-trouble-why-bytedance-halted-api-release/24363/)（原计划 2026 年 2 月 24 日上线），目前尚未确认新的日期。**[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) 将在 Seedance 2.0 API 可用后第一时间接入** — 关注我们获取最新动态。
+
+### 如何现在体验 Seedance 2.0
+
+在等待 API 期间，你可以通过字节跳动的官方应用体验 Seedance 2.0：
+
+- **国际版**：[Dreamina by CapCut](https://dreamina.capcut.com/tools/seedance-2-0) — 积分套餐起步价 $18/月
+- **国内版**：[即梦 (Jimeng)](https://jimeng.jianying.com) — 功能最完整，69 元/月（约 $9.60）
+
+### 目前可用：Seedance v1.5 Pro
+
+[Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) 目前已可通过 Atlas Cloud API 使用，与 Seedance 2.0 共享相同的音视频联合生成基因。它是目前通过 API 能获得的最接近 Seedance 2.0 的体验：
+
+| 特性 | Seedance 2.0 | Seedance v1.5 Pro（现已可用） |
+|---------|:------------:|:---------------------------------:|
+| 音视频同步 | ✅ 原生 | ✅ 原生 |
+| 多镜头 | ✅ | ❌ |
+| 最大分辨率 | 1080p | 720p |
+| 最长时长 | 20 秒 | 5 秒 |
+| API 访问 | ❌ 暂未开放 | ✅ Atlas Cloud |
+| 价格 | 暂无 | $0.222/视频 |
+
+---
+
 ## 为什么选择 Atlas Cloud 而非 fal.ai / Replicate
 
 | 特性 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | fal.ai | Replicate |

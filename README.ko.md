@@ -291,6 +291,44 @@ print(f"Video: {url}")
 
 ---
 
+## Seedance 2.0 — 가장 강력한 모델 (곧 API 출시 예정)
+
+ByteDance가 2026년 2월 12일에 출시한 [Seedance 2.0](https://seed.bytedance.com/en/seedance2_0)은 현재 가장 뛰어난 AI 동영상 모델로 널리 평가받고 있으며, [많은 크리에이터들은](https://www.hedra.com/blog/sora-2-alternative) 이미 품질 면에서 Sora 2에 필적하거나 이를 능가한다고 보고 있습니다.
+
+### Seedance 2.0의 특별한 점
+
+- **네이티브 시청각 동시 생성** — 동기화된 오디오와 비디오를 단일 패스로 생성하는 최초의 상용 모델 (Dual-Branch Diffusion Transformer 아키텍처)
+- **멀티샷 스토리텔링** — 가상 영화 감독처럼 여러 장면에 걸쳐 캐릭터 일관성을 유지
+- **멀티모달 입력** — 프로젝트당 최대 12개의 에셋을 결합 가능 (이미지 9개 + 동영상 3개 + 오디오 클립 3개, 각각 최대 15초)
+- **고급 참조 기능** — 프롬프트에서 업로드된 파일에 @ 태그를 사용하여 각 에셋의 영향을 정밀하게 제어
+- **다양한 비주얼 스타일** — 사실적 영상, 만화, 시네마틱 VFX, 아트 스타일 등
+
+### API 현황
+
+ByteDance는 [Seedance 2.0 API 출시를 연기했으며](https://mangoanimate.com/blog/seedance-2-0-in-trouble-why-bytedance-halted-api-release/24363/) (원래 2026년 2월 24일 예정), 새로운 일정은 아직 확인되지 않았습니다. **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)는 Seedance 2.0 API가 출시되는 즉시 통합할 예정입니다** — 업데이트를 받으시려면 팔로우해 주세요.
+
+### 지금 Seedance 2.0을 체험하는 방법
+
+API를 기다리는 동안, ByteDance의 공식 앱을 통해 Seedance 2.0을 체험할 수 있습니다:
+
+- **글로벌**: [Dreamina by CapCut](https://dreamina.capcut.com/tools/seedance-2-0) — 월 $18부터의 크레딧 기반 플랜
+- **중국**: [즉몽 (即梦/Jimeng)](https://jimeng.jianying.com) — 가장 완전한 기능 세트, 월 69위안 (~$9.60)
+
+### 현재 대안: Seedance v1.5 Pro
+
+[Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)는 현재 Atlas Cloud에서 API를 통해 사용할 수 있으며, 동일한 시청각 동시 생성 DNA를 공유합니다. Seedance 2.0에 가장 가까운 API 접근 가능한 경험입니다:
+
+| 기능 | Seedance 2.0 | Seedance v1.5 Pro (현재 사용 가능) |
+|------|:------------:|:---------------------------------:|
+| 시청각 동기화 | ✅ 네이티브 | ✅ 네이티브 |
+| 멀티샷 | ✅ | ❌ |
+| 최대 해상도 | 1080p | 720p |
+| 최대 길이 | 20초 | 5초 |
+| API 접근 | ❌ 미출시 | ✅ Atlas Cloud |
+| 가격 | N/A | $0.222/영상 |
+
+---
+
 ## Atlas Cloud가 fal.ai / Replicate보다 나은 이유
 
 | 기능 | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | fal.ai | Replicate |
