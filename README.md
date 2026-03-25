@@ -291,6 +291,44 @@ print(f"Video: {url}")
 
 ---
 
+## Seedance 2.0 — The Most Powerful Model (Coming Soon to API)
+
+[Seedance 2.0](https://seed.bytedance.com/en/seedance2_0), released by ByteDance on February 12, 2026, is widely considered the most capable AI video model available today — [many creators believe](https://www.hedra.com/blog/sora-2-alternative) it already rivals or surpasses Sora 2 in quality.
+
+### What Makes Seedance 2.0 Special
+
+- **Native audio-visual co-generation** — The first commercial model to generate synchronized audio and video in a single pass (Dual-Branch Diffusion Transformer architecture)
+- **Multi-shot storytelling** — Maintain character consistency across multiple scenes, like a virtual film director
+- **Multimodal input** — Combine up to 12 assets per project (9 images + 3 videos + 3 audio clips, each up to 15s)
+- **Advanced referencing** — Tag uploaded files with @ tags in prompts for precise control over each asset's influence
+- **Visual style flexibility** — Realistic footage, manga, cinematic VFX, and artistic styles
+
+### API Status
+
+ByteDance [delayed the Seedance 2.0 API launch](https://mangoanimate.com/blog/seedance-2-0-in-trouble-why-bytedance-halted-api-release/24363/) (originally planned for February 24, 2026) with no new date confirmed. **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) will integrate Seedance 2.0 API as soon as it becomes available** — follow us for updates.
+
+### How to Try Seedance 2.0 Now
+
+While waiting for the API, you can experience Seedance 2.0 through ByteDance's official apps:
+
+- **International**: [Dreamina by CapCut](https://dreamina.capcut.com/tools/seedance-2-0) — Credit-based plans from $18/month
+- **China**: [即梦 (Jimeng)](https://jimeng.jianying.com) — Most complete feature set, 69 RMB/month (~$9.60)
+
+### In the Meantime: Seedance v1.5 Pro
+
+[Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) is available now via API on Atlas Cloud and shares the same audio-visual joint generation DNA. It's the closest API-accessible experience to Seedance 2.0:
+
+| Feature | Seedance 2.0 | Seedance v1.5 Pro (available now) |
+|---------|:------------:|:---------------------------------:|
+| Audio-visual sync | ✅ Native | ✅ Native |
+| Multi-shot | ✅ | ❌ |
+| Max resolution | 1080p | 720p |
+| Max duration | 20s | 5s |
+| API access | ❌ Not yet | ✅ Atlas Cloud |
+| Price | N/A | $0.222/video |
+
+---
+
 ## Why Atlas Cloud Over fal.ai / Replicate
 
 | Feature | [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | fal.ai | Replicate |
