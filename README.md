@@ -56,7 +56,7 @@ Despite 1 million downloads within 5 days of its September 2025 launch, Sora cou
 | **Video editing** | [Kling O3 Pro Video-Edit](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/video-edit?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | Natural language video editing |
 | **Character consistency** | [Vidu Q3-Pro](https://www.atlascloud.ai/models/vidu/q3-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) / [Kling O3 Ref2V](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/reference-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | Reference-to-video with character locking |
 | **NSFW / uncensored** | [Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | LoRA-tuned for mature content, $0.03/s |
-| **Cheapest possible** | [Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | $0.018/video with audio |
+| **Cheapest possible** | [Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | $0.018/s with audio |
 
 ---
 
@@ -76,9 +76,8 @@ Despite 1 million downloads within 5 days of its September 2025 launch, Sora cou
 
 | Model | Provider | Text-to-Video | Image-to-Video | Max Resolution | Max Duration | Audio | Price |
 |-------|----------|:-------------:|:--------------:|:--------------:|:------------:|:-----:|:-----:|
-| **[Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ByteDance | ✅ | ✅ | 720p | 5s | ✅ Native | $0.222/video |
-| **[Wan 2.6 T2V](https://www.atlascloud.ai/models/alibaba/wan-2.6/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | ✅ | ❌ | 1080p | 15s | ✅ | $0.04–0.12/s |
-| **[Wan 2.6 I2V](https://www.atlascloud.ai/models/alibaba/wan-2.6/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | ❌ | ✅ | 1080p | 15s | ✅ | $0.10–0.15/s |
+| **[Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ByteDance | ✅ | ✅ | 720p | 5s | ✅ Native | $0.222/s |
+| **[Wan 2.6](https://www.atlascloud.ai/models/alibaba/wan-2.6/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | ✅ | ✅ | 1080p | 15s | ✅ | $0.04–0.15/s |
 | **[Hailuo 2.3 Pro](https://www.atlascloud.ai/models/minimax/hailuo-2.3/t2v-pro?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | MiniMax | ✅ | ✅ | 1080p | 6s | ❌ | Competitive |
 | **[Vidu Q3-Pro](https://www.atlascloud.ai/models/vidu/q3-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Shengshu | ✅ | ✅ | 1080p | Flexible | ✅ | $0.06–0.16/s |
 
@@ -86,7 +85,7 @@ Despite 1 million downloads within 5 days of its September 2025 launch, Sora cou
 
 | Model | Provider | Type | Max Resolution | Price | Best For |
 |-------|----------|------|:--------------:|:-----:|----------|
-| **[Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ByteDance | T2V | 720p | $0.018/vid | Ultra-cheap drafts |
+| **[Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ByteDance | T2V | 720p | $0.018/s | Ultra-cheap drafts |
 | **[Wan 2.6 I2V Flash](https://www.atlascloud.ai/models/alibaba/wan-2.6/image-to-video-flash?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | I2V | 1080p | $0.018/s | Budget animation |
 | **[Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | I2V | 720p | $0.03/s | NSFW / uncensored |
 | **[Vidu Q3-Turbo](https://www.atlascloud.ai/models/vidu/q3-turbo/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Shengshu | T2V/I2V | 1080p | Budget | Fast generation |
@@ -109,7 +108,7 @@ Veo 3.1 offers native 4K output — the only model matching true cinematic resol
 ### High-Volume / Batch Generation
 **Recommended: Wan 2.6 + Seedance Fast**
 
-Wan 2.6 T2V at $0.04/s and Seedance Fast at $0.018/video are the cheapest APIs. Both support up to 1080p. Use Wan 2.6 for longer clips (up to 15s), Seedance Fast for quick 5s drafts with audio.
+Wan 2.6 T2V at $0.04/s and Seedance Fast at $0.018/s are the cheapest APIs. Both support up to 1080p. Use Wan 2.6 for longer clips (up to 15s), Seedance Fast for quick 5s drafts with audio.
 
 ### Anime & Stylized Content
 **Recommended: Vidu Q3-Pro**
@@ -325,7 +324,7 @@ While waiting for the API, you can experience Seedance 2.0 through ByteDance's o
 | Max resolution | 1080p | 720p |
 | Max duration | 20s | 5s |
 | API access | ❌ Not yet | ✅ Atlas Cloud |
-| Price | N/A | $0.222/video |
+| Price | N/A | $0.222/s |
 
 ---
 
@@ -357,7 +356,7 @@ Sora always had strict content moderation. If you need uncensored video generati
 |-------|:-----:|------|-------|
 | **[Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | $0.03/s | I2V | LoRA-tuned for NSFW, best anatomy |
 | **[Wan 2.2 Spicy LoRA](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video-lora?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | $0.04/s | I2V | Custom LoRA styles for NSFW |
-| **[Seedance v1.5 Spicy](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/image-to-video-spicy?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ~$0.22/vid | I2V | Seedance quality, no filter |
+| **[Seedance v1.5 Spicy](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/image-to-video-spicy?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ~$0.22/s | I2V | Seedance quality, no filter |
 | **Wan 2.6 T2V/I2V** | $0.04–0.15/s | T2V/I2V | General model, relaxed policy |
 | **Vidu Q3-Pro** | $0.06–0.16/s | T2V/I2V | Anime NSFW with BGM |
 
@@ -411,7 +410,7 @@ Kling 3.0 Pro for general quality and human motion. Veo 3.1 for cinematic qualit
 <details>
 <summary><b>Is there a free option?</b></summary>
 
-Seedance v1.5 Fast at $0.018/video is the cheapest API option. For truly free, self-host open-source models like Wan 2.1 (Apache 2.0) or CogVideoX on your own GPU.
+Seedance v1.5 Fast at $0.018/s is the cheapest API option. For truly free, self-host open-source models like Wan 2.1 (Apache 2.0) or CogVideoX on your own GPU.
 </details>
 
 <details>
